@@ -1,0 +1,88 @@
+h1, p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.col-8{
+  width: 80%;
+}
+
+.col-4{
+  width: 20%;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+}
+
+.card{
+  width: 25%;
+  margin: 0.5rem;
+  padding: 1rem;
+  height: auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #f9f6f6;
+  box-shadow: 2px 2px 2px rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.button{
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #9f9f9f;
+}
+
+.content-cart{
+  text-align: center;
+}
+
+.img-product{
+  width: 80%;
+}
+
+.content-product{
+  display: "flex";
+  flex-direction: "column";
+}
+
+.content-product-item{
+  display: flex;
+  margin: 15px 0;
+  padding: 10px;
+  box-shadow: 1px 1px 1px rgba(0.5, 0.5, 0.5, 0.2);
+}
+
+.remove{
+  width: 15px;
+  height: 15px;
+  padding: 5px;
+  background-color: #9f9f9f;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
